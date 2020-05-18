@@ -102,7 +102,7 @@
                       "isEnabled" : true,
                       "isLooping" : false,
                       "isModal" : false,
-                      "name" : "Behaviour",
+                      "name" : "BulletHit",
                       "triggers" : [
                         {
                           "__content" : [
@@ -116,6 +116,88 @@
                                 "name" : "tapTarget"
                               },
                               "identifier" : "365340AF-3A75-4C4F-A849-24251D800041",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        }
+                      ]
+                    }
+                  ],
+                  "__version" : 3
+                },
+                {
+                  "__content" : [
+                    {
+                      "accessibility" : {
+                        "__content" : [
+                          {
+                            "isEnabled" : false
+                          }
+                        ],
+                        "__version" : 1
+                      },
+                      "actionGroups" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurations" : [
+                                {
+                                  "__content" : [
+                                    {
+                                      "configurationBox" : {
+                                        "configuration" : {
+                                          "audioType" : "play",
+                                          "filePath" : "audio:com.apple.rc.audio.miscellaneous.happy-chime-fx-01\/Happy%20Chime%20FX.caf",
+                                          "loops" : false,
+                                          "multiplePerformType" : "ignore request",
+                                          "target" : [
+                                            "3788A5B5-0388-488A-8304-7B90FEBA6FAC"
+                                          ],
+                                          "volume" : 0.88098787006578949
+                                        },
+                                        "name" : {
+                                          "type" : "audio"
+                                        }
+                                      },
+                                      "identifier" : "4932294F-0222-4A61-BE01-8FE121B07198",
+                                      "isEnabled" : true
+                                    }
+                                  ],
+                                  "__version" : 1
+                                }
+                              ],
+                              "identifier" : "5BEA08A2-B684-4878-8573-C5AA4150C769",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        }
+                      ],
+                      "color" : [
+                        0.21568627655506134,
+                        0.72549021244049072,
+                        0.80000001192092896,
+                        1
+                      ],
+                      "identifier" : "981836FC-576E-48C9-B762-E891AA47A46B",
+                      "isEnabled" : true,
+                      "isLooping" : false,
+                      "isModal" : false,
+                      "name" : "Sound",
+                      "triggers" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurationBox" : {
+                                "configuration" : {
+                                  "target" : [
+                                    "E5A08727-AFC9-48EB-9929-9AE7B09BC556"
+                                  ]
+                                },
+                                "name" : "tapTarget"
+                              },
+                              "identifier" : "EB451C0A-7D61-4BD9-98BF-29C3F11FA7EC",
                               "isEnabled" : true
                             }
                           ],
@@ -221,10 +303,17 @@
                     "overrides" : {
                       "arguments" : [
                         [
+                          "height",
+                          {
+                            "typeName" : "Double",
+                            "value" : 0.061566060318814606
+                          }
+                        ],
+                        [
                           "material",
                           {
                             "typeName" : "String",
-                            "value" : "steel"
+                            "value" : "plastic"
                           }
                         ],
                         [
@@ -232,6 +321,13 @@
                           {
                             "typeName" : "String",
                             "value" : "box"
+                          }
+                        ],
+                        [
+                          "width",
+                          {
+                            "typeName" : "Double",
+                            "value" : 0.049025660820173386
                           }
                         ]
                       ],
@@ -296,21 +392,21 @@
               "title" : "Box",
               "viewTransform" : {
                 "cameraTransform" : [
-                  0.99720621109008789,
+                  0.99742734432220459,
                   7.4505805969238281e-09,
-                  0.074697263538837433,
+                  0.071684129536151886,
                   0,
-                  0.01446228101849556,
+                  0.013878901489078999,
                   0.98107808828353882,
-                  -0.1930711567401886,
+                  -0.19311398267745972,
                   0,
-                  -0.073283851146697998,
+                  -0.070327721536159515,
                   0.19361203908920288,
-                  0.97833722829818726,
+                  0.97855418920516968,
                   0,
-                  0.1944555938243866,
-                  0.22767370939254761,
-                  1.5912026166915894,
+                  0.0029434624593704939,
+                  0.075869135558605194,
+                  1.5960454940795898,
                   1
                 ],
                 "sceneTransform" : [
